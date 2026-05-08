@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>北科大碩士學位論文：官方標準作業全流程（離校整合版）</title>
+<meta name="description" content="整合學校官方流程圖 × 圖書館最新公告 × 官方教學影片。口試申請期限：5/31｜電子論文截止：8/16｜離校最後期限：8/24">
+<meta property="og:title" content="北科大碩士論文畢業全流程（離校整合版）">
+<meta property="og:description" content="整合官方流程圖 × 圖書館公告 × 教學影片，含可勾選的 checklist。口試申請期限 5/31、電子論文截止 8/16、離校最後 8/24。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jerrylai0410.github.io/ntut-thesis-guide/">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -220,17 +225,18 @@
   .timeline h3 { font-size: 0.95rem; margin-bottom: 12px; color: #374151; }
   .tl-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 0;
     font-size: 0.8rem;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
   }
   .tl-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
-    min-width: 90px;
+    min-width: 80px;
   }
   .tl-dot {
     width: 12px; height: 12px;
@@ -238,10 +244,19 @@
     margin-bottom: 5px;
     border: 2px solid #fff;
     box-shadow: 0 0 0 2px currentColor;
+    flex-shrink: 0;
   }
   .tl-label { text-align: center; color: #374151; font-weight: 600; line-height: 1.3; }
   .tl-date { text-align: center; color: #6b7280; font-size: 0.75rem; }
-  .tl-line { flex: 1; height: 2px; background: #e5e7eb; min-width: 20px; margin-bottom: 18px; }
+  .tl-line {
+    flex: 1;
+    height: 2px;
+    background: #e5e7eb;
+    min-width: 16px;
+    margin-top: 6px;
+    flex-shrink: 0;
+    align-self: flex-start;
+  }
   .c1 { color: #16a34a; } .c2 { color: #ca8a04; } .c3 { color: #2563eb; }
   .c4 { color: #7c3aed; } .c5 { color: #dc2626; }
 
@@ -306,7 +321,7 @@
       <div class="phase-icon">🟢</div>
       <div>
         <div class="phase-title">第一階段：系統準備與比對作業</div>
-        <div class="phase-note">建議口試前 1.5 週啟動｜核心目標＊取得指導教授同意 + 雙系統相似度報告</div>
+        <div class="phase-note">建議口試前 1.5 週啟動｜核心目標：取得指導教授同意 + 雙系統相似度報告</div>
       </div>
     </div>
     <div class="phase-body">
@@ -340,7 +355,7 @@
           <div class="step-content">
             <div class="step-num">Step 3</div>
             <div class="step-title">申請本校學位論文系統建檔帳號</div>
-            <div class="step-note">請點選左側「申請建檔帳號」，需先$��學校 Email 註冊國圖帳號。</div>
+            <div class="step-note">請點選左側「申請建檔帳號」，需先以學校 Email 註冊國圖帳號。</div>
             <div class="multi-links">
               <a class="step-link" href="https://cloud.ncl.edu.tw/ntut/" target="_blank">🔗 北科大電子學位論文系統</a>
             </div>
@@ -374,10 +389,11 @@
             <div class="step-num">Step 6</div>
             <div class="step-title">將國圖報告上傳至 Turnitin「第 10 本區」</div>
             <div class="step-note">
-              <span class="warning">⚠️ 注意：</span>此步驟是將國圖報告 PDF 本身上傳至 Turnitin 的第 10 區，非論文本身。</div>
+              <span class="warning">⚠️ 注意：</span>此步驟是將國圖報告 PDF 本身上傳至 Turnitin 的第 10 區，非論文本身。
+            </div>
             <div class="step-note" style="margin-top:6px;background:#fffbeb;border-left:3px solid #f59e0b;padding:7px 10px;border-radius:0 6px 6px 0;">
-              💡 <strong>廷連結前請9認：</strong><br>
-              ① 需先完成 Step 1 申請 Turnitin 帳號，$��由圖書館將您加入該班級後，此連結才可正常使用。<br>
+              💡 <strong>點連結前請確認：</strong><br>
+              ① 需先完成 Step 1 申請 Turnitin 帳號，並由圖書館將您加入該班級後，此連結才可正常使用。<br>
               ② 若尚未登入，點擊後會先跳轉至登入頁面，登入後即可進入上傳介面。
             </div>
             <div class="multi-links">
@@ -409,7 +425,7 @@
             <div class="step-title">線上申請圖書館複核 <span class="badge badge-deadline">⚠️ 關鍵防呆</span></div>
             <div class="step-note">
               填寫「第 1–9 比對作業區」的<strong>十位數提交代碼</strong>。<br>
-              <span class="warning">千萬不可填到第 10 區的$��碼！</span>
+              <span class="warning">千萬不可填到第 10 區的代碼！</span>
             </div>
             <div class="multi-links">
               <a class="step-link" href="https://lib.ntut.edu.tw/sp.asp?xdurl=mp100/genform.asp&mp=100&CtNodeId=1600" target="_blank">🔗 線上申請：研究生口試論文複核服務</a>
@@ -576,7 +592,7 @@
           <div class="step-title">平裝紙本論文（1 冊）</div>
           <div class="step-note">
             依圖書館網頁裝訂說明製作，書背免寫學號。<br>
-            <span class="badge badge-tip">💡 延議電子論文審核通過後再印製，以免內容有誤需重印。</span>
+            <span class="badge badge-tip">💡 建議電子論文審核通過後再印製，以免內容有誤需重印。</span>
             <a class="step-link" href="https://www.youtube.com/watch?v=dEzeThC6q2s&t=721" target="_blank" style="margin-top:4px;">▶ 影片說明 12:01</a>
           </div>
         </div>
@@ -650,13 +666,14 @@
 </div>
 
 <script>
-  // Persist checkbox state using localStorage (persists across sessions, per browser)
+  // Persist checkbox state using localStorage (per reload)
   document.querySelectorAll('.step-checkbox').forEach((cb, i) => {
     const key = 'ntut_thesis_cb_' + i;
-    // restore saved state
+    // restore
     if (localStorage.getItem(key) === '1') cb.checked = true;
     cb.addEventListener('change', () => {
       localStorage.setItem(key, cb.checked ? '1' : '0');
+      // strike through parent step-title if checked
     });
   });
 </script>
